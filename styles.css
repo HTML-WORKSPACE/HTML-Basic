@@ -1,0 +1,64 @@
+h2{ 
+    color: rgb(255, 255, 255);
+}
+
+/* . class ekak assign */
+/* # id assign */
+
+.container {
+    width: 95vw;
+    height: 95vh;
+    /* background-image: linear-gradient(to right, rgb(33, 33, 33), rgb(255, 255, 0)); */
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+
+    flex-direction: column;
+}
+
+.main-content {
+    width: 60%;
+    height: 80%;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.lbl {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.txtfiled {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.txtfiled::placeholder{
+    color: white;
+}
+
+.btn {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
